@@ -1,3 +1,30 @@
 .container__small-card{
-   border: 1px;
+   display: flex;
+   flex-direction: column;
+   width: 500px;
+   margin-bottom: 20px;
+}
+.container__small-card-content{
+   display: flex;
+}
+
+.small-card__photo img{
+   width: 150px;
+   min-width: 150px;
+   margin-right: 10px;
+}
+.data-publishing span{
+   color: #605f78;
+}
+.small-card__title {
+   display: flex;
+   align-items: center;
+   font-size: 18px;
+   padding-top: 15px;
+}
+
+.separation-line hr{
+   margin-top: 20px;
+   border-color: rgba(190, 188, 216, 0.1)
+   ; 
 }
